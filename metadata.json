@@ -1,0 +1,8 @@
+{
+  "name": "Remix: GenZOT",
+  "description": "Sistema de avaliação genética quantitativa (BLUP) e acasalamento planejado para animais com modo prático (produtor) e didático (acadêmico).",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
