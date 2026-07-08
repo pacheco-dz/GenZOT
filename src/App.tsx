@@ -16,7 +16,6 @@ import MatingWizard from './components/MatingWizard';
 import ReferenceSection from './components/ReferenceSection';
 import GeneticSimulator from './components/GeneticSimulator';
 import SettingsSection from './components/SettingsSection';
-import GuidedTour from './components/GuidedTour';
 import ReportModal from './components/ReportModal';
 
 import logoUrl from './assets/images/genecorte_bovino_logo_v2_1782841611872.jpg';
@@ -279,7 +278,6 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#F1F5F9] text-slate-900 font-sans antialiased flex flex-col" id="app-container">
-      <GuidedTour />
       {/* Upper Navigation Rail - Geometric Balance Styled */}
       <header className="h-auto md:h-16 bg-[#0F172A] flex flex-col md:flex-row items-center justify-between px-6 py-3 md:py-0 border-b border-slate-700 w-full shrink-0">
         
